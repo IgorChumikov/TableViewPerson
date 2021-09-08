@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		33D7EA5E26E9334200BC8835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA5D26E9334200BC8835 /* AppDelegate.swift */; };
 		33D7EA6026E9334200BC8835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA5F26E9334200BC8835 /* SceneDelegate.swift */; };
-		33D7EA6226E9334200BC8835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA6126E9334200BC8835 /* ViewController.swift */; };
+		33D7EA6226E9334200BC8835 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA6126E9334200BC8835 /* DetailViewController.swift */; };
 		33D7EA6526E9334200BC8835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7EA6326E9334200BC8835 /* Main.storyboard */; };
 		33D7EA6726E9334300BC8835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D7EA6626E9334300BC8835 /* Assets.xcassets */; };
 		33D7EA6A26E9334300BC8835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7EA6826E9334300BC8835 /* LaunchScreen.storyboard */; };
+		33D7EA7226E9379C00BC8835 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7126E9379C00BC8835 /* ContactsTableViewController.swift */; };
+		33D7EA7426E937EB00BC8835 /* ContactsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7326E937EB00BC8835 /* ContactsDetailTableViewController.swift */; };
+		33D7EA7826E9390C00BC8835 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7726E9390C00BC8835 /* Person.swift */; };
+		33D7EA7B26E9395A00BC8835 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7A26E9395A00BC8835 /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33D7EA5A26E9334200BC8835 /* TableViewPerson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPerson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D7EA5D26E9334200BC8835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D7EA5F26E9334200BC8835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33D7EA6126E9334200BC8835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33D7EA6126E9334200BC8835 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		33D7EA6426E9334200BC8835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33D7EA6626E9334300BC8835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D7EA6926E9334300BC8835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D7EA6B26E9334300BC8835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D7EA7126E9379C00BC8835 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		33D7EA7326E937EB00BC8835 /* ContactsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailTableViewController.swift; sourceTree = "<group>"; };
+		33D7EA7726E9390C00BC8835 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		33D7EA7A26E9395A00BC8835 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				33D7EA5D26E9334200BC8835 /* AppDelegate.swift */,
 				33D7EA5F26E9334200BC8835 /* SceneDelegate.swift */,
-				33D7EA6126E9334200BC8835 /* ViewController.swift */,
+				33D7EA7926E9393700BC8835 /* Manager */,
+				33D7EA7626E938CC00BC8835 /* Model */,
+				33D7EA7526E9389100BC8835 /* ViewControllers */,
 				33D7EA6326E9334200BC8835 /* Main.storyboard */,
 				33D7EA6626E9334300BC8835 /* Assets.xcassets */,
 				33D7EA6826E9334300BC8835 /* LaunchScreen.storyboard */,
 				33D7EA6B26E9334300BC8835 /* Info.plist */,
 			);
 			path = TableViewPerson;
+			sourceTree = "<group>";
+		};
+		33D7EA7526E9389100BC8835 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33D7EA7126E9379C00BC8835 /* ContactsTableViewController.swift */,
+				33D7EA6126E9334200BC8835 /* DetailViewController.swift */,
+				33D7EA7326E937EB00BC8835 /* ContactsDetailTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		33D7EA7626E938CC00BC8835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33D7EA7726E9390C00BC8835 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33D7EA7926E9393700BC8835 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				33D7EA7A26E9395A00BC8835 /* ServiceManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D7EA6226E9334200BC8835 /* ViewController.swift in Sources */,
+				33D7EA7826E9390C00BC8835 /* Person.swift in Sources */,
+				33D7EA6226E9334200BC8835 /* DetailViewController.swift in Sources */,
 				33D7EA5E26E9334200BC8835 /* AppDelegate.swift in Sources */,
+				33D7EA7426E937EB00BC8835 /* ContactsDetailTableViewController.swift in Sources */,
+				33D7EA7226E9379C00BC8835 /* ContactsTableViewController.swift in Sources */,
+				33D7EA7B26E9395A00BC8835 /* ServiceManager.swift in Sources */,
 				33D7EA6026E9334200BC8835 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
