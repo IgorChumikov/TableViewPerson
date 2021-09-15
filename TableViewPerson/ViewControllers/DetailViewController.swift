@@ -14,18 +14,16 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     
-    var lastName: String!
-    var name: String!
+    var fullName: String!
     var email: String!
     var phone: String!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLabel.text = "\(name!)   \(lastName!)"
-        phoneLabel.text = "Phone:  \(phone!)"
-        emailLabel.text = "Email:  \(email!)"
+        nameLabel.text = fullName
+        phoneLabel.text = "Phone:  \(phone ?? "")"
+        emailLabel.text = "Email:  \(email ?? "")"
 
     }
 

@@ -138,13 +138,14 @@
             </objects>
             <point key="canvasLocation" x="662" y="-179"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="bhV-Xg-FYW">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZqA-hn-7TA" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZqA-hn-7TA" customClass="TabBarViewController" customModule="TableViewPerson" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="II6-bR-iqh"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="izm-JC-ahK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

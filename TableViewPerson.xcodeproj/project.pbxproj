@@ -17,6 +17,7 @@
 		33D7EA7426E937EB00BC8835 /* ContactsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7326E937EB00BC8835 /* ContactsDetailTableViewController.swift */; };
 		33D7EA7826E9390C00BC8835 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7726E9390C00BC8835 /* Person.swift */; };
 		33D7EA7B26E9395A00BC8835 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7EA7A26E9395A00BC8835 /* ServiceManager.swift */; };
+		33D87AF126F26BEE008F06CD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D87AF026F26BEE008F06CD /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		33D7EA7326E937EB00BC8835 /* ContactsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailTableViewController.swift; sourceTree = "<group>"; };
 		33D7EA7726E9390C00BC8835 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		33D7EA7A26E9395A00BC8835 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		33D87AF026F26BEE008F06CD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		33D7EA7526E9389100BC8835 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				33D87AF026F26BEE008F06CD /* TabBarViewController.swift */,
 				33D7EA7126E9379C00BC8835 /* ContactsTableViewController.swift */,
 				33D7EA6126E9334200BC8835 /* DetailViewController.swift */,
 				33D7EA7326E937EB00BC8835 /* ContactsDetailTableViewController.swift */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D87AF126F26BEE008F06CD /* TabBarViewController.swift in Sources */,
 				33D7EA7826E9390C00BC8835 /* Person.swift in Sources */,
 				33D7EA6226E9334200BC8835 /* DetailViewController.swift in Sources */,
 				33D7EA5E26E9334200BC8835 /* AppDelegate.swift in Sources */,
